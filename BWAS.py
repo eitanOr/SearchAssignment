@@ -24,6 +24,7 @@ def expand_batch(priority_queue, B):
     return current_batch
 
 
+
 if __name__ == "__main__":
     start_state = TopSpinState([3, 2, 1], 2)
     state_1 = TopSpinState([2, 1, 3], 2)
